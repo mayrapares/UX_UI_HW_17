@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -16,9 +21,13 @@ nav {
 
 ul {
     width: 50%;
-    margin-left: auto;
+    margin-left: padding;
+    padding: center;
 }
 
+li {
+    padding: center;
+}
 .heroImg {
     height: 600px;
     padding: 25px;
@@ -30,5 +39,5 @@ ul {
 }
 
 footer {
-    background-color: black;
+    background-color: #373738;
 }
