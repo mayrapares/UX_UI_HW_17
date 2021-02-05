@@ -1,43 +1,48 @@
 body {
     background-color: black;
     color: whitesmoke;
+    border: 1px solid red;
 }
 
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    padding: center;
+    border: 1px solid red;
 }
 
 .logo {
     width: 23%;
     padding: 1%;
     text-align: center;
+    border: 1px solid red;
 }
 
 nav {
     width: 73%;
     padding: 1%;
+    border: 1px solid red;
 }
 
 ul {
     width: 50%;
     margin-left: padding;
-    padding: center;
+    border: 1px solid red;
 }
 
-li {
-    padding: center;
-}
 .heroImg {
     height: 600px;
     padding: 25px;
+    border: 1px solid red;
 }
 
 .content {
     width: 500px;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 footer {
     background-color: #373738;
+    border: 1px solid red;
 }
