@@ -49,10 +49,14 @@ li {
 .content {
     width: fit-content;
     margin-left: 185px;
-    margin: 0 auto; 
+    margin: 0 auto;
     background: #ffffff1e 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 13px;
+    flex-direction: row;
+}
+
+.flex-container {
     flex-direction: row;
 }
 
