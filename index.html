@@ -3,15 +3,21 @@
 
 <head>
     <title></title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css\style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
 
-<!--HEADER-->
+    <!--HEADER-->
     <header class="sidenav navigation">
         <div class="inline-block logo">
-            <img src="images/Logo.png">
+            <img src="images/LOGO2.png">
         </div>
         <nav>
             <ul>
@@ -23,65 +29,95 @@
         </nav>
         <div class="Icons">
             <ul>
-                <li class="inline-block"><img src="images/linkedin.png" width="33%"></li>
-                <li class="inline-block"><img src="images/behance.png" width="33%"></li>
-                <li class="inline-block"><img src="images/youtube.png" width="33%"></li>
+                <li class="inline-block"><img src="images/linkedin.png" width="73%"></li>
+                <li class="inline-block"><img src="images/behance.png" width="73%"></li>
+                <li class="inline-block"><img src="images/youtube.png" width="73%"></li>
             </ul>
         </div>
     </header>
 
-<!--HERO IMAGE-->
+    <!--HERO IMAGE-->
     <section class="heroImg">
         <div class="main">
-           <img src="images/mayram.png" width="13%">
             <h1>Hi, I'm Mayra!</h1>
-            <p>UI / UX Engineer with a background in fine arts. I specialize in visual and interaction design, research and data analysis, and front-end development. I also have proficiency in JavaScript, HTML5, CSS, and JQuery. I have a leadership-driven work-ethic that is detail-oriented, creative, and adaptable, which makes me a valuable asset to any team. Scroll down to see my work!
+            <img src="images/mayrag.png" width="13%">
+            <p>UI / UX Engineer with a background in fine arts. I specialize in visual and interaction design, research
+                and data analysis, and front-end development. I also have proficiency in JavaScript, HTML5, CSS, and
+                JQuery. I have a leadership-driven work-ethic that is detail-oriented, creative, and adaptable, which
+                makes me a valuable asset to any team. Scroll down to see my work!
             </p>
-            <button type="button active">Download Resume</button>
+        <button type="button primary">Download Resume</button>
         </div>
     </section>
 
-<!--MY SKILLS-->
-    <section class="content">
-        <h1>Concentrated Skills</h1>
-        <div class="flex-container">
+    <!--MY SKILLS-->
 
-            <div class="flex-column">
-                <img src="images/illustrator.png" display="float">
-                <h5>Adobe Illustrator</h5>
-            </div>
+    
+<div class="container-fluid content">
+    <h2 style="text-align: center;">Concentrated Skills</h2>
 
-            <div class="flex-column">
-                <img src="images/xd.png" display="float">
-                    <h5>Adobe XD</h5>
-            </div>
+        <div class="row">
 
-            <div class="flex-column">
-                <img src="images/figma.png" display="float">
-                <h5>Figma</h5>
+          <!-- Card 1 -->
+          <div class="cardContainer col-sm-4">
+            <div class="card">
+                <img src="images/illustrator.png" class="thumbnail" alt="Illustrator">
+                <h6>Adobe Illustrator</h6>
             </div>
+          </div> 
+          <!-- End card 1 -->
+    
+          <!-- Card 2 -->
+          <div class="cardContainer col-sm-4">
+            <div class="card">
+                <img src="images/photoshop.png" class="thumbnail" alt="Illustrator">
+                <h6>Adobe Photoshop</h6>
+            </div>
+          </div>
+          <!-- End card 2 -->
+    
+          <!-- Card 3 -->
+          <div class="cardContainer col-sm-4">
+            <div class="card">
+                <img src="images/figma.png" class="thumbnail" alt="Illustrator">
+                <h6>Figma</h6>
+            </div>
+          </div>
+          <!-- End card 3 -->
 
-            <div class="flex-column">
-                <img src="images/invision.png" display="float">
-                <h5>Invision</h5>
+           <!-- Card 3 -->
+           <div class="cardContainer col-sm-4">
+            <div class="card">
+                <img src="images/invision.png" class="thumbnail" alt="Illustrator">
+                <h6>Invision</h6>
             </div>
+          </div>
+          <!-- End card 3 -->
 
-            <div class="flex-column">
-                <img src="images/illustrator.png" display="float">
-                <h5>Adobe Photoshop</h5>
+           <!-- Card 3 -->
+           <div class="cardContainer col-sm-4">
+            <div class="card">
+                <img src="images/xd.png" class="thumbnail" alt="Illustrator">
+                <h6>Adobe XD</h6>
             </div>
+          </div>
+          <!-- End card 3 -->
+    
         </div>
-    </section>
+      </div>
+      <!-- End cards -->
+ 
+    
 
-<!--FOOTER-->
-<footer>
-    <ul>
-        <li class="inline-block">About</li>
-        <li class="inline-block">Skills</li>
-        <li class="inline-block">Work</li>
-        <li class="inline-block">Contact</li>
-    </ul>
-</footer>
+    <!--FOOTER-->
+    <footer>
+        <ul>
+            <li class="inline-block">About</li>
+            <li class="inline-block">Skills</li>
+            <li class="inline-block">Work</li>
+            <li class="inline-block">Contact</li>
+        </ul>
+    </footer>
 
 </body>
 
