@@ -1,5 +1,7 @@
 body {
-    background-color: black;
+    background-image: url("../images/Feb2020\ -\ Copy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: whitesmoke;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -11,27 +13,17 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(17, 17, 17, 0.473);
+    background-color: #000000e0;
     overflow-x: hidden;
     padding-top: 20px;
     padding-left: 35px;
-  }
-  
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    display: block;
-  }
-  
-  .sidenav a:hover {
-    color: #3a56d4;
-  }
+}  
 
 nav ul {
     width: 50%;
     margin-left: padding;
     font-size: 18px;
+    color: #DF8632;
 }
 
 nav li {
@@ -40,18 +32,16 @@ nav li {
     cursor: pointer;
 } 
 
-nav ul li:hover { color: #8BA6FF; }
+nav ul li:hover { color: whitesmoke; }
 
 .logo {
-    width: 13%;
     padding: 1%;
-    text-align: center;
     border-radius: 13px;
 }
 
 .logo img {
     width: 150px;
-    padding: 1%;
+    padding: 6%;
 }
 
 
@@ -80,18 +70,46 @@ nav ul li:hover { color: #8BA6FF; }
     margin-left: 185px;
     height: auto;
     width: fit-content;
-    background: #ffffff1e 0% 0% no-repeat padding-box;
+    background: #000000 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 13px;
+    padding: 25px;
+}
+
+.content h2 {
+    color: #DF8632;
+}
+
+.skills {
+    width: fit-content;
+    height: auto;
+    padding: 25px;
+}
+
+.work {
+    height: auto;
+    padding: 25px;
 }
 
 .grid {
     margin-left: 185px;
     width: fit-content;
-    height: fit-content;
-    background: #ffffff1e 0% 0% no-repeat padding-box;
+    height: auto;
+    text-align: center;
+    background: #000000 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 13px;
+    padding: 15px;
+    padding-top: 25px;
+}
+
+.grid h2 {
+    color: #DF8632;
+}
+
+.card-Columns {
+    display: inline-block;
+    
 }
 
 .flexContainer {
@@ -105,30 +123,42 @@ nav ul li:hover { color: #8BA6FF; }
     justify-content: center;
 }
 
+.card h4 {
+    color: #DF8632;
+}
+
 .cardContainer {
     margin-top: 20px;
     text-align: center;
-  }
+}
+
+/* .program h6 {
+    color:  #DF8632;
+} */
 
 .main {
     margin-left: 185px; /* Same as the width of the sidenav */
     font-size: 20px; /* Increased text to enable scrolling */
     padding: 0px 10px;
     top: 43px;
-    background: #ffffff27 0% 0% no-repeat padding-box;
+    background: #000000 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 13px;
     text-align: center;
     justify-content: space-between;
 }
 
+.main h1 {
+    color: #DF8632;
+}
+
 .main button {
-    background-color: whitesmoke;
+    background-color: #DF8632;
     transition: 0.3s;
 }
 
 .main button:hover {
-    background-color: #8BA6FF;
+    background-color: whitesmoke;
 }
 
 .main img {
@@ -136,7 +166,7 @@ nav ul li:hover { color: #8BA6FF; }
   }
   
 footer {
-    background-color: #ffffff1e;
+    background-color: #000000ad;
     width: 100vh;
     padding-left: 50%;
     padding-right: 50%;
@@ -147,9 +177,10 @@ footer li {
     display: inline-block !important;
     text-transform: lowercase;
     cursor: pointer;
+    color: #DF8632;
 } 
 
-footer ul li:hover { color: #8BA6FF; }
+footer ul li:hover { color: whitesmoke; }
 
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
