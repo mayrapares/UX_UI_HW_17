@@ -62,7 +62,7 @@ nav ul li:hover { color: #8BA6FF; }
 
 
 .thumbnail {
-    width: 23%;
+    width: 43%;
     height: auto;
 }
 
@@ -77,9 +77,18 @@ nav ul li:hover { color: #8BA6FF; }
 }
 
 .content {
-    margin-left: 415px;
+    margin-left: 185px;
     height: auto;
     width: fit-content;
+    background: #ffffff1e 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 13px;
+}
+
+.grid {
+    margin-left: 185px;
+    width: fit-content;
+    height: fit-content;
     background: #ffffff1e 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 13px;
@@ -109,16 +118,13 @@ nav ul li:hover { color: #8BA6FF; }
     background: #ffffff27 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 13px;
-    align-items: center;
-    justify-content: center;
     text-align: center;
+    justify-content: space-between;
 }
 
 .main button {
-    align-items: center;
     background-color: whitesmoke;
     transition: 0.3s;
-    margin-left: 130px !important;
 }
 
 .main button:hover {
@@ -131,15 +137,24 @@ nav ul li:hover { color: #8BA6FF; }
   
 footer {
     background-color: #ffffff1e;
+    width: 100vh;
     padding-left: 50%;
     padding-right: 50%;
-   
-}
+    display: inline-block !important;
+}  
+
+footer li {
+    display: inline-block !important;
+    text-transform: lowercase;
+    cursor: pointer;
+} 
+
+footer ul li:hover { color: #8BA6FF; }
 
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-    .content {margin-left: 185px;}
+    .content {padding-top: 15px;}
 
     
   }
